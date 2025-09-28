@@ -1,0 +1,16 @@
+git config --global user.name "wbright21"
+e.g. git config -- global user.name "wbright21"
+
+git config --global user.email "120992912+wbright21@users.noreply.github.com"
+e.g. git config --global user.email "120992912+wbright21@users.noreply.github.com"
+e.g. git config --global user.email "120992912+wbright21@users.noreply.github.com"
+
+git config --global --list
+
+echo "# 9-28-25-class-lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wbright21/9-28-25-class-lab.git
+git push -u origin main
